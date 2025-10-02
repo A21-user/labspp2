@@ -1,25 +1,8 @@
-x = "Python is awesome"
-print(x)
+import math
 
-#print() function is often used to output variables#
+def sphere_volume(radius):
+    volume = (4/3) * math.pi * (radius ** 3)
+    return volume
 
-
-x = "Python"
-y = "is"
-z = "awesome"
-print(x, y, z)
-
-#n the print() function, you output multiple variables, separated by a comma:
-
-
-x = "Python "
-y = "is "
-z = "awesome"
-print(x + y + z)
-
-
-
-
-x = 5
-y = 10
-print(x + y)     #for numbers#
+r = float(input("Enter radius of sphere: "))
+print("Volume of sphere:", sphere_volume(r))

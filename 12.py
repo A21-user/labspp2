@@ -1,5 +1,5 @@
-#python random numbers#
+def histogram(numbers):
+    for n in numbers:
+        print("*" * n)
 
-import random
-
-print(random.randrange(1, 10))
+histogram([4, 9, 7])

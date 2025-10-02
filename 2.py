@@ -1,9 +1,5 @@
-print((6 + 3) - (6 + 3))  
+fahrenheit = float(input("Enter temperature in Fahrenheit: "))
 
-#Parentheses has the highest precedence, meaning that expressions inside parentheses must be evaluated first:#
+celsius = (5/9) * (fahrenheit - 32)
 
-
-
-print(100 + 5 * 3)
-
-#Multiplication * has higher precedence than addition +, and therefore multiplications are evaluated before additions:#
+print("Temperature in Celsius:", round(celsius, 2))
